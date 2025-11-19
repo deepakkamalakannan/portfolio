@@ -39,7 +39,7 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 </p>
 
 <p align="center">
-  <a href="https://abusaid.netlify.app/" target="_blank">
+  <a href="" target="_blank">
     <strong>🚀 View Live Demo</strong>
   </a>
 </p>
@@ -584,10 +584,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - ⭐ [Star the repository](https://github.com/deepakkamalakannan/developer-portfolio/stargazers)
 - � [Report bugs](https://github.com/deepakkamalakannan/developer-portfolio/issues)
 - � [Suggest features](https://github.com/deepakkamalakannan/developer-portfolio/discussions)
-
----
-
-![GitHub stars](https://img.shields.io/github/stars/said7388/developer-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/said7388/developer-portfolio?style=social)
-![GitHub issues](https://img.shields.io/github/issues/said7388/developer-portfolio)
-![GitHub license](https://img.shields.io/github/license/said7388/developer-portfolio)

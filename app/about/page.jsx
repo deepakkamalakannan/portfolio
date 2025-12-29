@@ -17,25 +17,25 @@ function AboutSection() {
   ];
 
   return (
-    <div id="about" className="my-16 lg:my-24 relative">
+    <div id="about" className="my-16 lg:my-24 lg:mt-36 relative">
       {/* Decorative background elements */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl -z-10"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl -z-10"></div>
 
       {/* Section Header */}
-      <div className="flex items-center justify-center mb-16">
+      <div className="flex items-center justify-center mb-6">
         <div className="flex items-center gap-4">
-          <div className="h-[2px] w-16 bg-gradient-to-r from-transparent to-pink-500"></div>
+          <div className="h-[2px] w-6 bg-gradient-to-r from-transparent to-pink-500 mt-18 lg:mt-0"></div>
           <div className="flex items-center gap-3">
-            <User className="text-pink-500" size={28} />
-            <h2 className="text-3xl lg:text-4xl font-bold text-white">
+            <User className="text-pink-500 mt-18 lg:mt-0" size={28} />
+            <h2 className="text-3xl lg:text-4xl font-bold text-white mt-18 lg:mt-0">
               About{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-violet-600">
                 Me
               </span>
             </h2>
           </div>
-          <div className="h-[2px] w-16 bg-gradient-to-l from-transparent to-violet-600"></div>
+          <div className="h-[2px] w-6 bg-gradient-to-l from-transparent to-violet-600 mt-18 lg:mt-0"></div>
         </div>
       </div>
 
@@ -100,8 +100,8 @@ function AboutSection() {
           <p className="text-gray-300 text-base lg:text-lg leading-relaxed">
             I am a <strong>Full Stack Developer</strong> with{" "}
             <strong>2 years of experience</strong> in building web applications.
-            I am worked at <strong>AICARE GLOBAL PVT LTD</strong>,
-            where I have been involved in developing web applications using{" "}
+            I am worked at <strong>AICARE GLOBAL PVT LTD</strong>, where I have
+            been involved in developing web applications using{" "}
             <strong>React.js</strong>, <strong>Flask API</strong>, and{" "}
             <strong>MongoDB</strong>.
             <br />
@@ -126,7 +126,7 @@ function AboutSection() {
           {/* Additional CTA */}
           <div className="pt-4">
             <a
-              href="#contact"
+              href="contact"
               className="inline-flex items-center gap-2 text-[#16f2b3] hover:text-pink-500 transition-colors duration-300 group"
             >
               <span className="font-semibold">Let's work together</span>

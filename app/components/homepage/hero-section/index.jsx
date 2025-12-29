@@ -88,7 +88,7 @@ function HeroSection() {
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-center gap-5">
             {/* Contact Me Button */}
-            <a href="#contact" className="group relative">
+            <a href="contact" className="group relative">
               {/* Animated gradient border */}
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 via-purple-500 to-violet-600 rounded-xl opacity-70 group-hover:opacity-100 blur group-hover:blur-lg transition-all duration-500"></div>
 
@@ -467,7 +467,7 @@ function TypingCodeBlock() {
             <div className="h-3 w-3 rounded-full bg-gradient-to-br from-yellow-400 to-orange-500 shadow-lg shadow-orange-500/50"></div>
             <div className="h-3 w-3 rounded-full bg-gradient-to-br from-green-400 to-emerald-500 shadow-lg shadow-green-500/50"></div>
             <div className="ml-4 flex-1 text-center">
-              <span className="text-gray-400 text-sm font-mono">coder.js</span>
+              <span className="text-gray-400 text-sm font-mono">profile.js</span>
             </div>
           </div>
         </div>
